@@ -13,9 +13,11 @@ public class Wk9Ex2 {
         System.out.println("Enter the width of the rectangle:");
         double width = input.nextDouble();
 
+        //calculates area and perimeter
         double area = length * width;
         double perimeter = (length*2)+(width*2);
 
+        //prints out results
         System.out.println("Results:\n"+
         "Area of the rectangle: " +area+
         "\nPerimeter of the rectangle: "+perimeter);
